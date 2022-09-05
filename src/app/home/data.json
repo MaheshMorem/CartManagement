@@ -1,0 +1,92 @@
+[
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/mFnfTVADj8yOxwzprYOmTPselk8.jpg",
+        "title": "Capernaum",
+        "language": "Arabic",
+        "rating": "8.2",
+        "ov":"Zain, a 12-year-old boy scrambling to survive on the streets of Beirut, sues his parents",
+        "year": "2018",
+        "price": "649"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/8bgyfPih4bORxtnFCwinqVElkYg.jpg",
+        "title": "C/o Kancharapalem",
+        "language": "Telugu",
+        "rating": "7.6",
+        "ov":"From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age.",
+        "year": "2018",
+        "price": "1076"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+        "title": "The Shawshank Redemption",
+        "language": "English",
+        "rating": "8.7",
+        "ov":"Framed in the 1940s for the double murder of his wife and her lover",
+        "year": "1994",
+        "price": "1714"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "title": "Parasite",
+        "language": "Korean ",
+        "rating": "8.5",
+        "ov":"All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood.",
+        "year": "2019",
+        "price": "994"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/zb9QBUn5AZzoKCS2jsnhp6ySSGp.jpg",
+        "title": "Jai Bhim",
+        "language": "Tamil",
+        "rating": "7.5",
+        "ov":"A pregnant woman from a primitive tribal community, searches desperately for her husband, who is missing from police custody. ",
+        "year": "2021",
+        "price": "1787"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/a9jgcRiKQIoNZxeGZgLGSZVCCGR.jpg",
+        "title": "The Great Indian Kitchen",
+        "language": "Malayalam",
+        "rating": "7.6",
+        "ov":"After marriage, a woman struggles to be the submissive wife that her husband and his family expect her to be.",
+        "year": "2021",
+        "price": "1524"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+        "title": "City Of God",
+        "language": "Portuguese",
+        "rating": "8.4",
+        "ov":"Buscapé was raised in a very violent environment.",
+        "year": "2002",
+        "price": "1421"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/vV4vlD4ool5JSsS1rB82qjCF6z8.jpg",
+        "title": "Amores Perros",
+        "language": "Spanish; Castilian",
+        "rating": "7.6",
+        "ov":"A fatalistic car crash in Mexico City sets off a chain of events in the lives of three persons",
+        "year": "2000",
+        "price": "1399"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/83AFk8uxCpzAcCnVEnEw3sIKiiE.jpg",
+        "title": "Soorari Pottru",
+        "language": "Tamil",
+        "rating": "7.9",
+        "ov":"Nedumaaran Rajangam 'Maara' sets out to make the common man fly",
+        "year": "2020",
+        "price": "945"
+    },
+    {
+        "poster": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+        "title": "Forrest Gump",
+        "language": "English",
+        "rating": "8.5",
+        "ov":"A man with a low IQ has accomplished great things in his life his one true love eludes him.",
+        "year": "1994",
+        "price": "660"
+    }
+]

@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mx-auto my-5" *ngFor="let movie of moviesList; let i = index">
+            <div class="card">
+                <img class="card-img-top" [src]="movie.poster" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{movie.title}}</h5>
+                    <p class="card-text ov">{{movie.ov}}</p>
+                    <button class="btn btn-success btn_rating">{{movie.rating}} ★</button>
+                    <span class="language">{{movie.language}}</span><br>
+                    <span style="font-weight: bold;">₹ {{movie.price}}</span><br>
+                    <div class="divBtnAddToCart">
+                        <button class="btnAddToCart" (click) = "addToCartList(i)">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="cardHolder">
+
+    <div class="card" *ngFor="let elem of moviesList; let i = index">
+        <img class="card-img-top" [src]="elem.poster"alt="" width="100%" height="100%">
+        <div class="card-body">
+            <h5 class="card-title">{{elem.title}}</h5>
+            <p class="card-text">{{elem.ov}}</p>
+            <button class="btn btn-success btn_rating">{{elem.rating}} ★</button>
+            <br>
+            <span>{{elem.price}}</span>
+        </div>
+    </div>
+</div> -->

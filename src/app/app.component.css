@@ -1,0 +1,10 @@
+.logo{
+    color: rgb(20, 152, 152);
+}
+.btnCart{
+    background: rgb(20, 152, 152);
+    color: white;
+    border: none;
+    width: 130px;
+    outline: 0;
+}

@@ -1,0 +1,41 @@
+.language{
+    float: right;
+    background: #f8f9fa;
+    color: #149898;
+    border-radius: 4%;
+    padding: 1px 7px;
+}
+.ov{
+    height: 75px;
+    overflow-y: scroll;
+}
+.btn_rating{
+    padding:2px 11px;
+}
+.btnAddToCart{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.outerDiv{
+    width: 100%;
+    text-align: center;
+    height: 319px;
+}
+.innerDiv{
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #149898;
+    float: right;
+    color: white;
+}
+.btnPlaceOrder{
+    width: 100%;
+    background: transparent;
+    border-width: 0.1px;
+    outline: none;
+    color: white;
+    border: 0.1px solid white;
+}

@@ -1,0 +1,52 @@
+<div class="outerDiv">
+    <div class="innerDiv">
+        <h4 class="display-5">PRICE DETAILS</h4>
+        <hr class="my-4">
+        <div style="display: flex; width: 100%">
+            <div class="priceLeft" style="width:50%">
+                <p>Number of Items</p>
+            </div>
+            <div class="priceRight" style="width: 50%">
+                <p>{{this.cartList.length}}</p>
+            </div>
+        </div>
+        <div style="display: flex; width: 100%">
+            <div class="priceLeft" style="width:50%">
+                <p>Price</p>
+            </div>
+            <div class="priceRight" style="width: 50%">
+                <p style="font-weight: bolder;">₹{{price}}</p>
+            </div>
+        </div>
+        <div style="display: flex; width: 100%">
+            <div class="priceLeft" style="width:50%">
+                <p>Delivery Charges</p>
+            </div>
+            <div class="priceRight" style="width: 50%">
+                <p>FREE</p>
+            </div>
+        </div>
+        <hr class="my-8">
+        <button class="btnPlaceOrder">Place Order</button>
+    </div>
+</div>
+<div style="background: ghostwhite">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mx-auto my-5" *ngFor="let cart of cartList; let i = index">
+                <div class="card">
+                    <img class="card-img-top" [src]="cart.poster" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{cart.title}}</h5>
+                        <p class="card-text ov">{{cart.ov}}</p>
+                        <button class="btn btn-success btn_rating">{{cart.rating}} ★</button>
+                        <span class="language">{{cart.language}}</span><br>
+                        <span style="font-weight: bold;">₹ {{cart.price}}</span><br>
+                        <div class="divBtnAddToCart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
